@@ -1,5 +1,13 @@
 import time
 
+VERDE = '\033[92m'
+AMARELO = '\033[93m'
+VERMELHO = '\033[91m'
+AZUL = '\033[94m'
+RESET = '\033[0m'
+
+
+
 def criar_tarefas(lista_geral):
     while True:
         nome = input("\nDigite uma tarefa (ou tecle 'S' para sair): ").capitalize().strip()
